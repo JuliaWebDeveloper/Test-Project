@@ -1,0 +1,526 @@
+body {
+    background: linear-gradient(153.11deg, #36603E 35.82%, #1E262C 107.75%);
+    height: 100vh;
+}
+
+#burger, [for=burger] {
+    display: none;
+}
+
+nav {
+    width: 100%;
+}
+.navMain,.nav-block,.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navMain {
+    top: 34.55px;
+    height: 39px;
+    margin: 35px 50px 0px 30px; 
+}
+
+.main-link,a:hover,.signUp,h1,h2,h3,h4,.price,.currency,li,.btn  {
+    color: rgba(255, 255, 255, 1);
+}
+
+.main-link {
+    text-decoration:line-through;
+}
+
+.nav-block {
+    width: 1025.14px;
+    height: 39px;
+}
+
+.nav-left {
+    width: 428.46px;
+}
+
+.link {
+    list-style-type:none;
+}
+
+a,.time,p,.list {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a,h1,h2,h3,h4,p,.price,.currency,.time,li {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    font-size: 12.09px;
+    text-decoration: none;
+}
+
+a:hover,.signUp:hover,.currency,.time {
+    cursor: pointer;
+}
+
+a:hover {
+    font-weight:bolder  ;
+}
+
+.rightside {
+    margin-right: 10px;
+}
+
+.main:hover .currency:hover,.main:hover .time:hover {
+    color: rgba(106, 153, 78, 1);
+}
+
+.signUp:hover,.card,.currency,.price,.time  {
+    background: rgba(106, 153, 78, 1);
+}
+
+.signUp,.main:hover .btn {
+    background:  linear-gradient(0deg, #BC4749, #BC4749);
+    border: 0.86px solid rgba(214, 101, 103, 1);
+}
+
+.signUp {
+    border-radius: 7px;
+    width: 114px;
+    height: 39px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.vectorBlock {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:10px;
+    width: 365px;
+    height: 100px;
+    opacity: 0.03px;
+}
+
+.mirror {
+    transform: scale(-1, 1);
+}
+
+.position {
+    position: absolute;
+    top:60px;
+    left:10px;
+    transform: rotate(-20deg);
+    width: 100%;
+} 
+
+h1{
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.main {
+    padding-top: 30px ;
+}
+
+.main:hover {
+    padding-top: 0px ;
+}
+
+.main:hover .card,.main:hover .currency,.main:hover .price,.main:hover .time {
+    background: rgba(29, 37, 43, 1);
+}
+
+.main:hover .move-up {
+    transform: translateY(-30px);
+}
+
+.main:hover .btn:before {
+    content: "Get Started ";
+    vertical-align:super;
+}
+
+.main:hover .btn:after {
+    content: url("assets/Frame\ 319.svg");
+}
+
+.btn:before{
+    content: "Start Free Trial"
+}
+
+.card {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    width: 333.84px;
+    height: 592px;
+    top: 239px;
+    left: 817px;
+    padding: 37.85px, 60px, 52.99px, 60px;
+    border-radius: 11.35px;
+    gap: 50px;
+    box-shadow: 0px 3.784829616546631px 94.62073516845703px 0px rgba(0, 0, 0, 0.25);
+}
+
+.mainBlock {
+    width: 100%;
+    border-bottom: 0.95px solid rgba(255, 255, 255, 0.1);
+}
+
+.blockOne {
+    width: 213.84px; 
+    height: 139.1px;
+    gap: 22.71px;   
+    margin:40px 0px 20px 50px;
+}
+
+h1,h2,.price,.currency,.time,p,h3,h4,li,.btn {
+    letter-spacing: 0em;
+}
+
+h1,h2,.price,.currency,.time,p,h3,h4,li {
+    text-align: left;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.priceBlock {
+    display: flex;
+    align-items: end;
+    margin-bottom: 15px;
+}
+
+.blockCurrencyPrice {
+    display: flex;
+}
+
+.currency,.price,.time {
+    border: none;
+}
+
+.price {
+    align-self: end;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.currency {
+    align-self: start;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.time {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+hr {
+    border: 0.95px solid rgba(255, 255, 255, 0.1)
+}
+
+p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.blockTwo {
+    width: 180.93px;
+    height: 279.84px;
+    gap: 24px;
+    margin: -40px 0px 0px 50px;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    margin-top: 0px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style-type:none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+svg {
+	height: 10.36px;
+	width: 6.05px;
+}
+
+.expanded {
+    transform: rotate(90deg);
+}
+
+polygon {
+    stroke-width: 0;
+    stroke: rgba(188, 71, 73, 1);
+    fill: rgba(188, 71, 73, 1);
+}
+
+.btn {
+    width: 214px;
+    height: 39px;
+    top: 862px;
+    left: 389px;
+    padding: 12px, 22px, 12px, 22px;
+    border-radius: 7px;
+    border: 0.86px;
+    gap: 9.46px;
+    background: linear-gradient(0deg, #6A994E, #6A994E);
+    border: 0.86px solid rgba(208, 208, 208, 1);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 1);
+    margin:-20px 0px 20px 50px;
+}
+
+@media all and (max-width: 1280px) {
+    .nav-block {
+        width: 800px;
+    }
+    .container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        padding: 27.85px, 40px, 42.99px, 40px;  
+    }
+}
+@media all and (max-width: 1024px) {
+    .navMain {
+        margin: 15px 20px 0px 20px; 
+    }
+
+    .nav-block {
+        width: 700px;
+    }
+    
+    .container {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .card {
+        width: 300px;
+        height: 450px;
+    }
+
+    .vectorBlock {
+        display: none;
+    }
+
+    .blockOne {
+        margin:20px 0px 0px 40px;
+    }
+
+    .price {
+        line-height: 28px;
+        font-size: 25px;
+    }
+
+    .blockTwo {
+        height: 210px;
+        margin: -50px 0px 0px 40px;
+    }
+
+    li {
+        line-height: 22px;
+    }
+
+    .btn {
+        height: 35px;
+        margin:-20px 0px 10px 40px;
+    }
+}
+@media all and (max-width: 912px) {
+    body {
+        height: 100%;
+    }
+
+    .card {
+        width: 333.84px;
+        height: 592px;
+    }
+
+    .nav-block {
+        width: 650px;
+        height: 100px;
+    }
+
+    .blockOne {
+        margin:40px 0px 2px 50px;
+    }
+
+    .price {
+        line-height: 48px;
+        font-size: 38px;
+    }
+
+    .blockTwo {
+        height: 279.84px;
+        margin: -40px 0px 0px 50px;
+    }
+
+    li {
+        line-height: 32px;
+    }
+
+    .btn {
+        height: 39px;
+        margin:-20px 0px 20px 60px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .nav-block {
+        width: 550px;
+    }
+   
+    .nav-left {
+        width: 350px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    [for=burger] {
+        display: block;
+        top: 15px;
+        position: absolute;
+        width: 30px;
+        text-align: center;
+        right: 50px;
+    }
+    
+    .burger {
+        width: 40px;
+    }
+
+    .main-link {
+        font-size: 15px;
+    }
+    
+    .nav-block {
+        display: none;
+        width: 270px;
+    }
+
+    .nav-left,.nav-right {
+        position:sticky;
+        z-index: 1;
+        flex-direction: column;
+        background-color:#1E262C;
+    }
+
+    .nav-left {
+        width: 270px;
+        margin: 85px 0px 0px 0px;    
+    }
+
+    .nav-right {
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        line-height: 32px;
+        padding-bottom: 10px;
+    }
+
+    #burger:checked + label + .nav-block{
+        display: block;
+        animation: show .5s ease;  
+    }
+
+    .signUp {
+        width: 100px;
+        height: 39px;
+        margin: 15px 0px 0px 0px;
+    }
+}
+
+@media all and (max-width: 430px) {
+    h1{
+        line-height: 50px;
+    }
+}
+
+
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
